@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wikiur/static/css/main.b82cb63a.chunk.css",
-    "main.js": "/wikiur/static/js/main.3e79e238.chunk.js",
-    "main.js.map": "/wikiur/static/js/main.3e79e238.chunk.js.map",
-    "runtime~main.js": "/wikiur/static/js/runtime~main.e1bdad46.js",
-    "runtime~main.js.map": "/wikiur/static/js/runtime~main.e1bdad46.js.map",
-    "static/js/2.5a685ebc.chunk.js": "/wikiur/static/js/2.5a685ebc.chunk.js",
-    "static/js/2.5a685ebc.chunk.js.map": "/wikiur/static/js/2.5a685ebc.chunk.js.map",
-    "index.html": "/wikiur/index.html",
-    "precache-manifest.79ddc7da20280a636cc9b2672c705092.js": "/wikiur/precache-manifest.79ddc7da20280a636cc9b2672c705092.js",
-    "service-worker.js": "/wikiur/service-worker.js",
-    "static/css/main.b82cb63a.chunk.css.map": "/wikiur/static/css/main.b82cb63a.chunk.css.map"
+    "main.css": "/wikifromlink/static/css/main.b82cb63a.chunk.css",
+    "main.js": "/wikifromlink/static/js/main.3e79e238.chunk.js",
+    "main.js.map": "/wikifromlink/static/js/main.3e79e238.chunk.js.map",
+    "runtime~main.js": "/wikifromlink/static/js/runtime~main.bb824942.js",
+    "runtime~main.js.map": "/wikifromlink/static/js/runtime~main.bb824942.js.map",
+    "static/js/2.5a685ebc.chunk.js": "/wikifromlink/static/js/2.5a685ebc.chunk.js",
+    "static/js/2.5a685ebc.chunk.js.map": "/wikifromlink/static/js/2.5a685ebc.chunk.js.map",
+    "index.html": "/wikifromlink/index.html",
+    "precache-manifest.b43491fbd6efa212f86502096bd998fc.js": "/wikifromlink/precache-manifest.b43491fbd6efa212f86502096bd998fc.js",
+    "service-worker.js": "/wikifromlink/service-worker.js",
+    "static/css/main.b82cb63a.chunk.css.map": "/wikifromlink/static/css/main.b82cb63a.chunk.css.map"
   }
 }
