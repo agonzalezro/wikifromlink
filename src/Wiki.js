@@ -9,7 +9,7 @@ const WikiBody = props => {
         <div className="card-body">
           <ReactMarkdown source={item.history[0].body} />
           {/* <button className="btn btn-link" onClick={() => props.removeItem(item.id)}><i className="fas fa-edit"></i></button> */}
-          <a className="btn btn-link right float-right" href={"#" + item.id}><i className="fas fa-hashtag"></i></a>
+          {/* <a className="btn btn-link right float-right" href={"#" + item.id}><i className="fas fa-hashtag"></i></a> */}
           <button className="btn btn-link right float-right" onClick={() => props.removeItem(item.id)}><i className="fas fa-trash"></i></button>
         </div>
       </div>

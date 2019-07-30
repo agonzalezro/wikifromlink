@@ -14,7 +14,7 @@ class App extends Component {
 
   setStateAndPushState = wiki => {
     this.setState(wiki)
-    window.history.pushState({}, null, btoa(JSON.stringify(this.state.wiki)))
+    window.history.pushState({}, null, "#"+btoa(JSON.stringify(this.state.wiki)))
   }
 
   removeItem = indexToDelete => {
@@ -41,9 +41,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const pathname = window.location.pathname
-      .replace("/wikifromlink", "") // TODO: Probably there is a better way, let me know if you know it
-    const encodedWiki = (pathname[0] === "/") ? pathname.substring(1) : pathname
+    let encodedWiki = window.location.hash
+        encodedWiki = (encodedWiki[0] === "/") ? encodedWiki.substring(1) : encodedWiki
+        encodedWiki = (encodedWiki[0] === "#") ? encodedWiki.substring(1) : encodedWiki
 
     if (encodedWiki.length > 0) {
       this.setState({
