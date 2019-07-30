@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Header extends Component {
     render() {
         return <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top">
-            <a href="/" className="navbar-brand">wikifromlink.com <acronym title="This is still beta, use it under your own risk"><i className="fas fa-flask"></i></acronym></a>
+            <div className="navbar-brand">wikifromlink.com <acronym title="This is still beta, use it under your own risk"><i className="fas fa-flask"></i></acronym></div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
