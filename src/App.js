@@ -41,7 +41,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const encodedWiki = window.location.pathname.replace("/wikifromlink", "").substring(1)
+    const pathname = window.location.pathname
+      .replace("/wikifromlink", "") // TODO: Probably there is a better way, let me know if you know it
+    const encodedWiki = (pathname[0] === "/") ? pathname.substring(1) : pathname
 
     if (encodedWiki.length > 0) {
       this.setState({
