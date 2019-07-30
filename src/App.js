@@ -41,7 +41,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const encodedWiki = window.location.pathname.substring(1)
+    const encodedWiki = window.location.pathname.replace("/wikifromlink", "").substring(1)
 
     if (encodedWiki.length > 0) {
       this.setState({
@@ -61,8 +61,6 @@ class App extends Component {
         <NoContent items={wiki.items} />
         <Wiki items={wiki.items} removeItem={this.removeItem}/>
         <Form handleSubmit={this.handleSubmit} />
-        {/* <Table characterData={characters} removeCharacter={this.removeCharacter} />
-        <Form handleSubmit={this.handleSubmit} /> */}
       </div>
     )
   }
