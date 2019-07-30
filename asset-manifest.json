@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wikifromlink/static/css/main.64967d49.chunk.css",
-    "main.js": "/wikifromlink/static/js/main.f4320141.chunk.js",
-    "main.js.map": "/wikifromlink/static/js/main.f4320141.chunk.js.map",
+    "main.js": "/wikifromlink/static/js/main.8d623c8e.chunk.js",
+    "main.js.map": "/wikifromlink/static/js/main.8d623c8e.chunk.js.map",
     "runtime~main.js": "/wikifromlink/static/js/runtime~main.bb824942.js",
     "runtime~main.js.map": "/wikifromlink/static/js/runtime~main.bb824942.js.map",
     "static/js/2.5a685ebc.chunk.js": "/wikifromlink/static/js/2.5a685ebc.chunk.js",
     "static/js/2.5a685ebc.chunk.js.map": "/wikifromlink/static/js/2.5a685ebc.chunk.js.map",
     "index.html": "/wikifromlink/index.html",
-    "precache-manifest.89160cb75bc824a9c3351d7c1348e233.js": "/wikifromlink/precache-manifest.89160cb75bc824a9c3351d7c1348e233.js",
+    "precache-manifest.f2b7cce6637e12e8b81e085f1b9ae391.js": "/wikifromlink/precache-manifest.f2b7cce6637e12e8b81e085f1b9ae391.js",
     "service-worker.js": "/wikifromlink/service-worker.js",
     "static/css/main.64967d49.chunk.css.map": "/wikifromlink/static/css/main.64967d49.chunk.css.map"
   }
