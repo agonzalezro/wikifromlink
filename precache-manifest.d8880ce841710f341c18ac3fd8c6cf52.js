@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd53f8ddd519631b49516a267dccc5f7",
+    "revision": "b30d6a8e550872d8395078bfbfb0e3f9",
     "url": "/wikifromlink/index.html"
   },
   {
-    "revision": "7c66d2c18cd6519a4c89",
+    "revision": "b8ff675fa3102b8197e5",
     "url": "/wikifromlink/static/css/main.64967d49.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wikifromlink/static/js/2.5a685ebc.chunk.js"
   },
   {
-    "revision": "7c66d2c18cd6519a4c89",
-    "url": "/wikifromlink/static/js/main.83d7cc71.chunk.js"
+    "revision": "b8ff675fa3102b8197e5",
+    "url": "/wikifromlink/static/js/main.ecb88f3e.chunk.js"
   },
   {
     "revision": "45a0a43c3d9934758d03",
