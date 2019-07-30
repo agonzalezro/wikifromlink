@@ -12,29 +12,36 @@ class App extends Component {
     },
   }
 
+  setStateAndPushState = wiki => {
+    this.setState(wiki)
+    window.history.pushState({}, null, btoa(JSON.stringify(this.state.wiki)))
+  }
+
   removeItem = indexToDelete => {
     const { wiki } = this.state
   
     wiki.items = wiki.items.filter((item, _) => {
-           return item.id !== indexToDelete
-        })
+       return item.id !== indexToDelete
+    })
 
-    this.setState(wiki)
-    window.location.hash = "#"+btoa(JSON.stringify(this.state.wiki))
+    this.setStateAndPushState(wiki)
   }
 
   handleSubmit = item => {
     const { wiki } = this.state
 
-    item.id = wiki.items.length + 1
+    if (wiki.items.length === 0) {
+      item.id = 1
+    } else {
+      item.id = wiki.items[wiki.items.length-1].id + 1
+    }
     wiki.items.push(item)
 
-    this.setState(wiki)
-    window.location.hash = "#"+btoa(JSON.stringify(this.state.wiki))
+    this.setStateAndPushState(wiki)
   }
 
   componentDidMount() {
-    const encodedWiki = window.location.hash.substring(1)
+    const encodedWiki = window.location.pathname.substring(1)
 
     if (encodedWiki.length > 0) {
       this.setState({

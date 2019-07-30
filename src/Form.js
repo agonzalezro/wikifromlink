@@ -41,9 +41,9 @@ class Form extends Component {
   
     return (
         <div className="row mt-3">
-        <form className="col-5 offset-3">
+        <form className="col-8 offset-2">
           <div className="form-group">
-            <textarea className="form-control" name="body" rows="4" onChange={this.handleChange} value={history[0].body}></textarea>
+            <textarea className="form-control" name="body" rows="5" onChange={this.handleChange} value={history[0].body}></textarea>
           </div>
           <input className="btn btn-primary" onClick={this.submitForm} value="Submit" type="button"></input>
         </form>
